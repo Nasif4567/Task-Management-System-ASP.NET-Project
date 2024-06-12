@@ -1,0 +1,63 @@
+S.No	        Column Name	 Data Type	   Description
+  1	  ID	Number(9)	
+  2	ManagerID	Number(9)	
+  3	Name	Varchar(50)	
+  4	Description	Varchar (50)	
+  5	EstStartDate	Date	
+  6	EstCompletionDate	Date	
+
+
+Users
+
+
+S.No	        Column Name	 Data Type	   Description
+  1	 UserID	Number(9)	
+  2	Name	Varchar(50)	
+  3	Username	Varchar(50)	
+  4	Userpassword	Varchar (50)	
+  5	Email	Varchar(50)	
+  6	RoleID	 Number(9)	
+  7	Status	 Number(9)	
+
+
+User Contacts 
+				
+
+S.No	        Column Name	 Data Type	   Description
+  1	  ID	Number(9)	
+  2	UserId	Number(9)	
+  3	ContactID	Number(9)	
+
+
+ProjectContacts
+
+ 
+S.No	        Column Name	 Data Type	   Description
+  1	  ID	Number(9)	
+  2	UserId	Number(9)	
+  3	ContactID	Number(9)	
+
+
+Contacts
+
+S.No	        Column Name	 Data Type	   Description
+  1	  ID	Number(9)	
+  2	Name	Varchar(50)	
+  3	Title	Varchar(50)	
+  4	Company	Varchar(50)	
+  5	Department	Varchar(50)	
+  6	Workphone	Varchar(10)	
+  7	WorkFax	Varchar(10)	
+  8	HomePhone	Varchar(10)	
+  9	Homefax	Varchar(10)	
+ 10	MobilePhone	Varchar(10)	
+ 11	Email	Varchar(20)	
+
+Project Members
+
+
+S.No	        Column Name	 Data Type	   Description
+  1	  ID	Number(9)	
+  2	UserId	Number(9)	
+  3	Roleid	Number(9)	
+  4	ProjectId	Number(9)	

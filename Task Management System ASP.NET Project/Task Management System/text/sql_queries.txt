@@ -1,0 +1,12 @@
+create table tasklists(taskname varchar(20),created_date DateTime,modified_date DateTime,subject varchar(200),body varchar(5000),status varchar(20))
+
+insert into tasklists values('database design',20/03/08,20/03/08,'database design','Design the database module for the company xxx',1)
+
+create table taskassign(task_selected varchar(20),project_leader varchar(20),manager varchar(20),programmer varchar(20))
+
+
+
+create table message(userid varchar(20),message varchar(500))
+
+
+create table messages(userid varchar(20),recieved_by varchar(20),subject varchar(100),message varchar(500))
